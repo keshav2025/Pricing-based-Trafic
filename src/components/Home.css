@@ -1,0 +1,198 @@
+.container {
+  position: relative;
+}
+
+.imgg {
+  width: 100%;
+  z-index: -1;
+  position: relative;
+}
+
+.circles {
+  margin-left: 890px;
+  margin-top: -850px;
+  z-index: -1;
+}
+
+
+.text1 {
+  margin-top: -510px;
+  margin-left: 400px;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text2 {
+  position: relative;
+  left: 450px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+  width: 600px;
+  border: 2px solid rgb(248, 243, 243);
+  border-radius: 20px;
+  margin: 100px auto 0;
+  display: block;
+  background-color: rgb(247, 237, 249);
+}
+
+.pageviews {
+  margin: 5px 0 40px 10px;
+}
+
+.price {
+  margin-left: 300px;
+}
+
+.myRangeCss {
+  margin: 20px 0 0 70px;
+  width: 440px;
+}
+
+.monthBilling {
+  margin-top: 30px;
+  margin-left: 100px;
+  position: relative;
+  bottom: -15px;
+
+}
+
+.yearbilling span {
+  color: rgb(224, 15, 15);
+  background-color: rgb(248, 171, 176);
+  border-radius: 20px;
+  padding: 5px;
+  margin: 2px;
+}
+
+.toggle-label span {}
+
+.about {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#green {
+  margin-left: 50px;
+  color: rgb(122, 197, 8);
+}
+
+.price {
+  margin-left: 260px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+.button {
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.button button {
+  margin-left: 330px;
+  margin-top: -170px;
+}
+
+.text {
+  margin-bottom: -100px;
+  margin-left: 290px;
+}
+
+#yearlyBilling {
+  margin-top: -40px;
+  margin-left: 230px;
+}
+
+.aboutt {
+  margin-top: -20px;
+  margin-left: 290px;
+}
+
+.toggle {
+  margin-top: -20px;
+
+}
+
+.line {
+  margin: 2px;
+  margin-top: 40px;
+  width: calc(100% - 10px);
+  height: 2px;
+  background-color: rgb(228, 221, 221);
+}
+
+
+
+.year {
+  /* margin-left: 300px; */
+
+  position: relative;
+  left: 300px;
+  bottom: 20px;
+
+
+}
+
+.year span {
+  color: brown;
+  background-color: rgb(236, 116, 116);
+  border-radius: 20px;
+  padding: 7px;
+
+}
+
+.form-check-input[type="checkbox"] {
+  width: 60px;
+  height: 30px;
+  position: relative;
+
+  bottom: -22px;
+
+
+}
+
+
+.form-check-label {
+  font-size: 16px;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    text-align: left;
+    margin-top: 200px;
+  }
+
+  .box {
+    width: 90%;
+    margin: 50px auto;
+
+  }
+
+  .year {
+    font-size: 10px;
+    text-align: center;
+    margin-left: 100px;
+    position: relative;
+    left: auto;
+    right: 50%;
+    bottom: 10px;
+  }
+
+  .form-check-input[type="checkbox"] {
+    bottom: -15px;
+  }
+
+  .text1 {
+
+
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .text2 {
+    margin-right: 190px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+}
+
